@@ -1,7 +1,4 @@
-/*les grandes lignes*/
-body{
-    margin: 0;
-}
+
 p
 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -14,56 +11,49 @@ h1>h2
     font-family: 'Righteous', cursive;
     font-size: 2em;
 }
-
-
-img{
-    line-height: 0;
-    max-width: 100%;
-
-}
-/*les grandes lignes*/
-body{
-    margin: 0;
-}
-p
-{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
-
-  }
-h1>h2
-{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Righteous', cursive;
-    font-size: 2em;
+/*menu*/
 }
 
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: rgb(247, 158, 158);
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
 
-img{
-    line-height: 0;
-    max-width: 100%;
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
 
+.topnav #myLinks {
+  display: none;
 }
-#logo {
-    width: 20em;
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
- 
-header {
-    background-color:white;
+
+.topnav a.icon {
+  background: rgb(204, 131, 131);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
- 
-header nav {
-    width: 1000px;
-    margin: auto;
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
- 
-#menu
- {
-    font-size: 1em;
-    font-family: 'Source Sans Pro',bold;
-    
-}
-/***********bannière**********/
+/*menufin*/
 .banniere{
     background-image: url('/image/Banniere-site-flou.png');
     min-height: 400px; 
@@ -85,25 +75,3 @@ header nav {
     justify-content: center;
     font-family:'Righteous', cursive;
   }
-  /*****************fin**********/
-   /*début résumé*/
- #about{
-    align-items: center;
-    background-color:white;
-    
-}   
-.images/*image*/
-{   
-    float: left;
-    flex-basis: auto;
-    order: 1;
-    border-radius: 100%;
-}
-.text{
-  width: 70%;
-    margin: 5em;
-    flex-basis: 66%;
-    order: 2;
-    margin:
-
-/*début des compétances*/
