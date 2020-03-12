@@ -1,0 +1,109 @@
+/*les grandes lignes*/
+body{
+    margin: 0;
+}
+p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+
+  }
+h1>h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+
+img{
+    line-height: 0;
+    max-width: 100%;
+
+}
+/*les grandes lignes*/
+body{
+    margin: 0;
+}
+p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+
+  }
+h1>h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+
+img{
+    line-height: 0;
+    max-width: 100%;
+
+}
+#logo {
+    width: 20em;
+}
+ 
+header {
+    background-color:white;
+}
+ 
+header nav {
+    width: 1000px;
+    margin: auto;
+}
+ 
+#menu
+ {
+    font-size: 1em;
+    font-family: 'Source Sans Pro',bold;
+    
+}
+/***********bannière**********/
+.banniere{
+    background-image: url('/image/Banniere-site-flou.png');
+    min-height: 400px; 
+    margin-left: -50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banniere h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Righteous', cursive;
+  } 
+  .banniere h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Righteous', cursive;
+  }
+  /*****************fin**********/
+   /*début résumé*/
+ #about{
+    align-items: center;
+    background-color:white;
+    
+}   
+.images/*image*/
+{   
+    float: left;
+    flex-basis: auto;
+    order: 1;
+    border-radius: 100%;
+}
+.text{
+  width: 70%;
+    margin: 5em;
+    flex-basis: 66%;
+    order: 2;
+    margin:
+
+/*début des compétances*/
