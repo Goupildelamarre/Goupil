@@ -118,3 +118,7 @@ padding-left: 20px ;
  a{
     text-align: center;/*lien video*/
  }
+ #footer{
+     background-color: black;
+     color: white;
+ }
