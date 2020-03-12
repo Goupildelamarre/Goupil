@@ -105,3 +105,18 @@ body {
   .col>h3{
       text-align: center;
   }
+  .text{
+padding-right: 20px;
+padding-left: 20px ;
+
+  }
+  .col{
+    padding-right: 20px;
+    padding-left: 20px ;
+    
+      }
+
+
+    .resume{
+        background-color: rgba(255, 235, 205, 0.4);
+    }
