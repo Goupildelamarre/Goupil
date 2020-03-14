@@ -161,6 +161,11 @@ padding-left: 20px ;
   color: white;
   text-decoration: none;
  }
+ /************articles carrie***********/
+ .intro{
+   text-align: center;
+   margin: 10px;
+ }
 /****écrant******/
 @media (max-width: 600px) {
   .resume{
